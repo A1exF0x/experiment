@@ -11,38 +11,38 @@
     <title>Restaurant</title>
 </head>
 <body>
-<div class="body_bg">
+<div class="body__bg">
 <header class="header">
   <div class="container">
-    <div class="header_wrapper">
-      <div class="header_logo">
+    <div class="header__wrapper">
+      <div class="header__logo">
         <img src="./LOGO.png" alt="" />
       </div>
-        <nav class="header_nav">
-          <div class="header_left_nav">
-            <ul class="header_list">
-              <li class="header_item">
-                <a href="#" class="header_link">главная</a>
+        <nav class="header__nav">
+          <div class="header__left__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#" class="header__link">главная</a>
               </li>
-              <li class="header_item">
-                <a href="#" class="header_link">меню</a>
+              <li class="header__item">
+                <a href="#" class="header__link">меню</a>
               </li>
-              <li class="header_item">
-                <a href="#" class="header_link">о нас</a>
+              <li class="header__item">
+                <a href="#" class="header__link">о нас</a>
               </li>
-              <li class="header_item">
-                <a href="#" class="header_link">бронь</a>
+              <li class="header__item">
+                <a href="#" class="header__link">бронь</a>
               </li>
-                <i class="fa-light fa-cart-shopping header_cart"></i>
+                <i class="fas fa-shopping-cart header__cart"></i>
               </li>
             </ul>
           </div>
           <div class="header_right_nav">
-            <i class="fas fa-phone-square-alt"></i>
-            <a href="#" class="header_nomber">+999-888-76-54</a>
+            <i class="fas fa-phone-square-alt header__phone"></i>
+            <a href="#" class="header__nomber">+999-888-76-54</a>
             <p class="text">Свяжитесь с нами для бронирования</p>    
           </div>
-          <button class="header_btn" type="button">заказ столика</button>
+          <button class="header__btn" type="button">заказ столика</button>
         </nav>
     </div>
   </div>  
@@ -50,15 +50,46 @@
 <main>
     <section class="banner">
         <div class="container">
-          <div class="banner_wrapper">
-            <h1 class="banner_title-first">Добро пожаловать в</h1>
-            <h2 class="banner_title-second">Наш ресторан</h2>
-            <p class="banner_text">ДОМ ЛУЧШЕЙ ЕДЫ</p>
-            <button class="banner_btn">VIEW MENU</button>
+          <div class="banner__wrapper">
+            <h1 class="banner__title-first">Добро пожаловать в</h1>
+            <h2 class="banner__title-second">Наш ресторан</h2>
+            <p class="banner__text">ДОМ ЛУЧШЕЙ ЕДЫ</p>
+            <button class="banner__btn">VIEW MENU</button>
           </div>
         </div>
-      </section>
-    </div>
+    </section>
+    <section class="food">
+      <div class="container">
+        <div class="food__wrapper">
+          <div class="food__card">
+            <div class="food__img">
+              <img src="./food.png" alt="food">
+            </div>
+            <h5 class="food__title">Магическая <span>Атмосфера</span></h5>
+            <p class="food__text">В нашем заведении царит магическая атмосфера
+              наполненная вкусными ароматами</p>
+          </div>
+          <div class="food__card">
+            <div class="food__img">
+              <img src="./food.png" alt="food">
+            </div>
+            <h5 class="food__title">Лучшее качество <span>Еды</span></h5>
+            <p class="food__text">Качество нашей <br>Еды - отменное!
+              </p>
+          </div>
+          <div class="food__card">
+            <div class="food__img">
+              <img src="./food.png" alt="food">
+            </div>
+            <h5 class="food__title">Недорогая <span>Еда</span></h5>
+            <p class="food__text">Стоимость нашей Еды
+              зависит только от ее
+              количества. Качество
+              всегда на высоте!</p>
+          </div>
+        </div>
+      </div>
+    </section>
 </main>
 </body>
 </html>
