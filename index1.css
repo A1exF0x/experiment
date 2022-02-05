@@ -146,7 +146,7 @@
 }
 .banner__text::before {
   content: "";
-  top: 10px;
+  top: 12px;
   left: 180px;
   position: absolute;
   display: block;
@@ -157,7 +157,7 @@
 .banner__text::after {
   content: "";
   right: 180px;
-  bottom: 10px;
+  bottom: 12px;
   position: absolute;
   display: block;
   width: 61px;
