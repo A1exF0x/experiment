@@ -48,7 +48,6 @@
 .header__cart {
   font-size: 14px;
   color: #ffffff;
-  background-color: violet;
 }
 .header__right__nav {
   flex-direction: row;
@@ -103,7 +102,7 @@
 }
 .banner {
   padding-bottom: 230px;
-  background-image: url("BG.png");
+  background-image: url("img/BG.png");
   background-repeat: no-repeat;
   background-position-x: center;
   background-size: cover;
@@ -229,4 +228,55 @@ a {
   line-height: 30px;
   text-align: center;
   color: #656363;
+}
+.history__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 151px;
+}
+.history__title {
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 54px;
+  line-height: 62px;
+  text-align: center;
+}
+.history__title span {
+  color: #bc9060;
+}
+.history__text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  padding-top: 22px;
+}
+.number__title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: center;
+  color: #bc9060;
+}
+.number__text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+}
+.history__article {
+  padding-right: 125px;
+}
+.number {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 125px;
+  padding-top: 80px;
 }
